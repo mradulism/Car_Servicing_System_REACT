@@ -1,0 +1,403 @@
+{
+  "users": [
+    {
+      "email": "mradul@email.com",
+      "password": "123456",
+      "name": "Mradul ",
+      "uid": "VBTZXMAQR0X4iIjTQb7xxdhbctr2",
+      "id": 1001
+    },
+    {
+      "email": "shubham@email.com",
+      "password": "123456",
+      "name": "shubham",
+      "uid": "O1Xcwouh5vQWkCy5Up9DWHp9Cj53",
+      "id": 1002
+    },
+    {
+      "email": "Madhav@email.com",
+      "password": "123456",
+      "name": "Madhav",
+      "uid": "zKXjkhXFg9QIQK3Q3qMQi1tuhiA2",
+      "id": 1003
+    },
+    {
+      "email": "om@email.com",
+      "password": "`1234567",
+      "name": "om",
+      "uid": "0dP6OkK9PJcoP74ZP22lFaIUM2b2",
+      "id": 1004
+    },
+    {
+      "email": "aditi@gmail.com",
+      "password": "123456",
+      "name": "Aditii",
+      "uid": "DX6tuvOhOLbnAhWHKzFW75IRpzA2",
+      "id": 1005
+    },
+    {
+      "email": "jaynam@email.com",
+      "password": "jaynam@123",
+      "name": "Jaynam Sanghavi",
+      "id": 1006
+    }
+  ],
+  "mechanics": [
+    {
+      "email": "ram@gmail.com",
+      "password": "ram123",
+      "name": "ram",
+      "id": 1
+    },
+    {
+      "email": "shyam@gmail.com",
+      "password": "shyam123",
+      "name": "shyam",
+      "id": 2
+    },
+    {
+      "email": "sunny@gmail.com",
+      "password": "sunny123",
+      "name": "suny",
+      "id": 3
+    },
+    {
+      "email": "samyak@email.com",
+      "password": "sam123",
+      "name": "Samyak",
+      "id": 5
+    }
+  ],
+  "vehicleCategory": [
+    {
+      "type": "SUV",
+      "description": "SUV description Updated",
+      "details": "SUV Details",
+      "id": 11001
+    },
+    {
+      "id": 11002,
+      "type": "HatchBack",
+      "description": "Hatchback description",
+      "details": "Hatchback Details"
+    },
+    {
+      "id": 11003,
+      "type": "Sedan",
+      "description": "Sedan description",
+      "details": "Sedan Details"
+    },
+    {
+      "type": "LUV",
+      "description": "LUV description",
+      "details": "LUV Details",
+      "id": 11004
+    },
+    {
+      "type": "CS",
+      "description": "CS Description",
+      "details": "CS Details",
+      "id": 11005
+    },
+    {
+      "type": "wer",
+      "description": "qwer",
+      "details": "erty",
+      "id": 11006
+    }
+  ],
+  "services": [
+    {
+      "offeredServiceId": 13003,
+      "serviceName": "Major Service CCC",
+      "description": "Major Car Service carried out in for those who travel 45000 kms per year",
+      "userId": 1004,
+      "status": true,
+      "vehicleNumber": "MP-09-PO-0909",
+      "vehicleCategory": "CS",
+      "bookDate": "2023-01-17",
+      "cost": 19800,
+      "id": 1
+    },
+    {
+      "offeredServiceId": 13001,
+      "serviceName": "Regular Service A",
+      "description": "Iterim Car Service carried out in for those who travel 20000 kms per year",
+      "userId": 1004,
+      "status": true,
+      "vehicleNumber": "UP-09-OP-0000",
+      "vehicleCategory": "LUV",
+      "bookDate": "2023-01-29",
+      "cost": 6600,
+      "id": 2
+    },
+    {
+      "offeredServiceId": 13006,
+      "serviceName": "Other Service",
+      "description": "Customized Service based on user requirement, Charges will be based on work done (Variable charges)",
+      "userId": 1004,
+      "status": true,
+      "vehicleNumber": "PO-90-TR-5678",
+      "vehicleCategory": "HatchBack",
+      "bookDate": "2023-01-31",
+      "cost": 2200,
+      "id": 3
+    },
+    {
+      "serviceName": "Regular Service A",
+      "description": "Iterim Car Service carried out in for those who travel 20000 kms per year",
+      "status": false,
+      "vehicleNumber": "MP-09-PO-0000",
+      "bookDate": "2023-02-03",
+      "cost": 6600,
+      "mechanic": "shyam",
+      "vehicleCategory": "LUV",
+      "userId": 1005,
+      "id": 4
+    },
+    {
+      "serviceName": "Major Service CCC",
+      "description": "Major Car Service carried out in for those who travel 45000 kms per year",
+      "status": true,
+      "vehicleNumber": "PO-09-YT-1234",
+      "bookDate": "2023-01-31",
+      "cost": 19800,
+      "mechanic": "suny",
+      "vehicleCategory": "Sedan",
+      "userId": 1005,
+      "id": 5
+    },
+    {
+      "offeredServiceId": 13001,
+      "serviceName": "Regular Service A",
+      "description": "Iterim Car Service carried out in for those who travel 20000 kms per year",
+      "userId": 1001,
+      "status": true,
+      "vehicleNumber": "MP-09-OP-2345",
+      "vehicleCategory": "HatchBack",
+      "bookDate": "2023-01-21",
+      "cost": 6600,
+      "id": 6
+    },
+    {
+      "offeredServiceId": 13001,
+      "serviceName": "Regular Service A",
+      "description": "Iterim Car Service carried out in for those who travel 20000 kms per year",
+      "userId": 1001,
+      "status": true,
+      "vehicleNumber": "MP-09-OP-2345",
+      "vehicleCategory": "HatchBack",
+      "bookDate": "2023-01-21",
+      "cost": 6600,
+      "id": 7
+    },
+    {
+      "offeredServiceId": 13001,
+      "serviceName": "Regular Service A",
+      "description": "Iterim Car Service carried out in for those who travel 20000 kms per year",
+      "userId": 1001,
+      "status": true,
+      "vehicleNumber": "MP-09-OP-2345",
+      "vehicleCategory": "HatchBack",
+      "bookDate": "2023-01-21",
+      "cost": 6600,
+      "id": 8
+    },
+    {
+      "offeredServiceId": 13001,
+      "serviceName": "Regular Service A",
+      "description": "Iterim Car Service carried out in for those who travel 20000 kms per year",
+      "userId": 1001,
+      "status": true,
+      "vehicleNumber": "MP-09-OP-2345",
+      "vehicleCategory": "HatchBack",
+      "bookDate": "2023-01-21",
+      "cost": 6600,
+      "id": 9
+    },
+    {
+      "offeredServiceId": 13001,
+      "serviceName": "Regular Service A",
+      "description": "Iterim Car Service carried out in for those who travel 20000 kms per year",
+      "userId": 1001,
+      "status": true,
+      "vehicleNumber": "MP-09-OP-2345",
+      "vehicleCategory": "HatchBack",
+      "bookDate": "2023-01-21",
+      "cost": 6600,
+      "id": 10
+    },
+    {
+      "offeredServiceId": 13001,
+      "serviceName": "Regular Service A",
+      "description": "Iterim Car Service carried out in for those who travel 20000 kms per year",
+      "userId": 1001,
+      "status": true,
+      "vehicleNumber": "MP-09-OP-2345",
+      "vehicleCategory": "HatchBack",
+      "bookDate": "2023-01-21",
+      "cost": 6600,
+      "id": 11
+    },
+    {
+      "serviceName": "Regular Service A",
+      "description": "Iterim Car Service carried out in for those who travel 20000 kms per year",
+      "status": "true",
+      "vehicleNumber": "MP-09-PO-1000",
+      "bookDate": "2023-03-16",
+      "cost": 6600,
+      "mechanic": "Samyak",
+      "vehicleCategory": "Sedan",
+      "userId": 1006,
+      "id": 12
+    }
+  ],
+  "offeredServices": [
+    {
+      "id": 13001,
+      "serviceName": "Regular Service A",
+      "serviceDescription": "Iterim Car Service carried out in for those who travel 20000 kms per year",
+      "servicePrice": 6000
+    },
+    {
+      "id": 13002,
+      "serviceName": "Full Service BB",
+      "serviceDescription": "Full Car Service carried out in for those who travel 30000 kms per year",
+      "servicePrice": 11000
+    },
+    {
+      "id": 13003,
+      "serviceName": "Major Service CCC",
+      "serviceDescription": "Major Car Service carried out in for those who travel 45000 kms per year",
+      "servicePrice": 18000
+    },
+    {
+      "id": 13004,
+      "serviceName": "Washing & Check-up",
+      "serviceDescription": "Wash for Car and normal check up",
+      "servicePrice": 3000
+    },
+    {
+      "id": 13005,
+      "serviceName": "Damage Repair",
+      "serviceDescription": "Car repair based on damage total price will be based on work done (Variable charges)",
+      "servicePrice": 3000
+    },
+    {
+      "id": 13006,
+      "serviceName": "Other Service",
+      "serviceDescription": "Customized Service based on user requirement, Charges will be based on work done (Variable charges)",
+      "servicePrice": 2000
+    },
+    {
+      "serviceName": "Regular Service 22",
+      "serviceDescription": "Any descriptiomn",
+      "servicePrice": "12000",
+      "id": 13007
+    }
+  ],
+  "enquiry": [
+    {
+      "id": 1,
+      "name": "Aniket Agrawal",
+      "email": "ani@gmail.com",
+      "phoneno": 7263641826,
+      "details": "want to know the offers"
+    },
+    {
+      "name": "enquiry try",
+      "email": "enquiry",
+      "phoneno": "8354773648",
+      "details": "all type of enquiry valid",
+      "id": 2
+    },
+    {
+      "name": "aniket",
+      "email": "aniket@gmail.com",
+      "phoneno": "123456789",
+      "details": "Firsrt enquiry",
+      "userId": 1001,
+      "id": 3
+    },
+    {
+      "name": "mradul",
+      "email": "mradul@gmail.com",
+      "phoneno": "987654321",
+      "details": "want to know the new year offer",
+      "userId": 1001,
+      "id": 4
+    },
+    {
+      "name": "mradul",
+      "email": "mradul@gmail.com",
+      "phoneno": "987654321",
+      "details": "want to know the new year offer",
+      "userId": 1001,
+      "id": 5
+    },
+    {
+      "name": "last try",
+      "email": "last@gmail.com",
+      "phoneno": "6477389339",
+      "details": "last details enquiry try",
+      "userId": 1001,
+      "id": 6
+    },
+    {
+      "name": "qwerty",
+      "email": "ata@gmail.com",
+      "phoneno": "12345678",
+      "details": "dfghjkl;",
+      "userId": 1001,
+      "id": 7
+    },
+    {
+      "name": "asdfghjk",
+      "email": "asdfghjk",
+      "phoneno": "123456789",
+      "details": "asdfghjkl",
+      "userId": 1001,
+      "id": 8
+    },
+    {
+      "name": "Mradul-Aniket",
+      "email": "mradul@email.com",
+      "phoneno": "12357890",
+      "details": "wqeryuio;dsfghjkm",
+      "userId": 1001,
+      "id": 9
+    },
+    {
+      "name": "aditi",
+      "email": "aditi@gmail.com",
+      "phoneno": "123456789",
+      "details": "asdfghjkfghjkl",
+      "userId": 1005,
+      "response": "thank you aditi",
+      "id": 10
+    },
+    {
+      "name": "Jaynam",
+      "email": "jaynam@email.com",
+      "phoneno": "1234567890",
+      "details": "Enquiry From Jaynam",
+      "userId": 1006,
+      "response": "Response for the enquiry by Jaynam",
+      "id": 11
+    }
+  ],
+  "admin": [
+    {
+      "id": 7001,
+      "email": "admin101@admin.com",
+      "password": "admin101",
+      "name": "Admin101"
+    },
+    {
+      "id": 7002,
+      "email": "admin102@admin.com",
+      "password": "admin102",
+      "name": "Admin102"
+    }
+  ]
+}
